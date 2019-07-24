@@ -40,4 +40,14 @@ public class Student
     public void setMarks(int marks) {
         this.marks = marks;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", marks=" + marks +
+                '}';
+    }
 }

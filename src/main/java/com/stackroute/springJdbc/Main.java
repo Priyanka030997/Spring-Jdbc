@@ -14,9 +14,10 @@ public class Main
        Student student=new Student();
       // studentDao.createTable();
        studentDao.insertData();
+       System.out.println(studentDao.getAllStudents());
        studentDao.updateDetails();
-       studentDao.readData();
-      // studentDao.deleteDetails();
+       //studentDao.getAllStudents();
+       studentDao.deleteDetails();
 
    }
 }
